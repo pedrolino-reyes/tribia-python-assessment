@@ -13,7 +13,7 @@ jobs:
     env:
       LOGIN_USER: ${{ secrets.LOGIN_USER }}
       LOGIN_PASS: ${{ secrets.LOGIN_PASS }}
-      BASE_URL: ${{ secrets.BASE_URL }}
+      BASE_URL: ${{ vars.BASE_URL }}
 
     steps:
       - name: Checkout repository

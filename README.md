@@ -8,6 +8,7 @@ A basic Playwright and Python repo to demonstrate how we can write end to end te
 1. **Clone this codebase**. Clone this repo to your local machine.
 1. **Install Poetry**. We're using Poetry to manage all of the Python dependencies
 1. **Install the dependencies**. Run `poetry install` to install all the required Python libraries.
+1. **Install the Playwright browsers**. Run `poetry run playwright install` to install the browsers used by Playwright.
 1. **Create a local .env file**. There are some "secrets" and configuration details that we keep in a .env file. This file isn't part of the repo, to avoid putting secrets in plain text in github. Ask a friend for the login user details and then complete your .env file with the following values:
 
 ```bash
